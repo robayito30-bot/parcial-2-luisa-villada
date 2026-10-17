@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/RegistroAcademico.dir/src/main.cpp.o CMakeFiles/RegistroAcademico.dir/src/RegistroAcademico.cpp.o -o RegistroAcademico 

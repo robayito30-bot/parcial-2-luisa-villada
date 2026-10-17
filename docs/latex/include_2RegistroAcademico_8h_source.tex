@@ -1,0 +1,31 @@
+\doxysection{Registro\+Academico.\+h}
+\hypertarget{include_2RegistroAcademico_8h_source}{}\label{include_2RegistroAcademico_8h_source}\index{include/RegistroAcademico.h@{include/RegistroAcademico.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ REGISTROACADEMICO\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ REGISTROACADEMICO\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classRegistroAcademico}{RegistroAcademico}}\ \{}
+\DoxyCodeLine{00011\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00012\ \ \ \ \ std::string\ nombre;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ creditosAprobados;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{float}\ promedioPonderado;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00015\ \ \ \ \ std::vector<float>\ notas;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00016\ \ \ \ \ std::vector<int>\ creditosNotas;\ \ \ \ \ \ }
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classRegistroAcademico_a9d5316b433698291916cfaa3c20d29ce}{RegistroAcademico}}(\textcolor{keyword}{const}\ std::string\&\ nombre);}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classRegistroAcademico_aa198923889fd4228cba40c307b5fe17a}{registrarNota}}(\textcolor{keywordtype}{float}\ nota,\ \textcolor{keywordtype}{int}\ creditos);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classRegistroAcademico_a2938953806822a5a6aba29d71b646f91}{obtenerPromedio}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classRegistroAcademico_aa5848355a4f0a0cb96ad67cea939e035}{cumpleRequisitos}}(\textcolor{keywordtype}{int}\ creditosRequeridos)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00044\ \};}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
